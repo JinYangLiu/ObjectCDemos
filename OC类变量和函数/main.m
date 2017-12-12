@@ -1,6 +1,5 @@
 //
-//  main.m
-//  demo002
+//  OC中类的定义，对象创建，属性使用，方法使用，函数与方法区别，成员变量局部变量全局变量的区别
 //
 //  Created by LJY on 2017/12/12.
 //  Copyright © 2017年 LJY. All rights reserved.
