@@ -13,15 +13,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4A5F66D11FDF755C0063195F /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		4A5F66DF1FDF75940063195F /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -52,23 +43,15 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4A5F66D31FDF755C0063195F /* ObjectCDemos */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjectCDemos; sourceTree = BUILT_PRODUCTS_DIR; };
-		4A5F66E11FDF75940063195F /* demo001 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo001; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5F66E11FDF75940063195F /* hello OC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "hello OC"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F66E31FDF75940063195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4A5F66EC1FDF75E50063195F /* demo002 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = demo002; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5F66EC1FDF75E50063195F /* OC类变量和函数 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OC类变量和函数"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F66EE1FDF75E50063195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A5F66F71FDF82C50063195F /* 字符串结构体对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "字符串结构体对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F66F91FDF82C50063195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4A5F66D01FDF755C0063195F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A5F66DE1FDF75940063195F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -106,9 +89,8 @@
 		4A5F66D41FDF755C0063195F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4A5F66D31FDF755C0063195F /* ObjectCDemos */,
-				4A5F66E11FDF75940063195F /* demo001 */,
-				4A5F66EC1FDF75E50063195F /* demo002 */,
+				4A5F66E11FDF75940063195F /* hello OC */,
+				4A5F66EC1FDF75E50063195F /* OC类变量和函数 */,
 				4A5F66F71FDF82C50063195F /* 字符串结构体对象 */,
 			);
 			name = Products;
@@ -141,26 +123,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4A5F66D21FDF755C0063195F /* ObjectCDemos */ = {
+		4A5F66E01FDF75940063195F /* hello OC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A5F66DA1FDF755C0063195F /* Build configuration list for PBXNativeTarget "ObjectCDemos" */;
-			buildPhases = (
-				4A5F66CF1FDF755C0063195F /* Sources */,
-				4A5F66D01FDF755C0063195F /* Frameworks */,
-				4A5F66D11FDF755C0063195F /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = ObjectCDemos;
-			productName = ObjectCDemos;
-			productReference = 4A5F66D31FDF755C0063195F /* ObjectCDemos */;
-			productType = "com.apple.product-type.tool";
-		};
-		4A5F66E01FDF75940063195F /* demo001 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4A5F66E51FDF75940063195F /* Build configuration list for PBXNativeTarget "demo001" */;
+			buildConfigurationList = 4A5F66E51FDF75940063195F /* Build configuration list for PBXNativeTarget "hello OC" */;
 			buildPhases = (
 				4A5F66DD1FDF75940063195F /* Sources */,
 				4A5F66DE1FDF75940063195F /* Frameworks */,
@@ -170,14 +135,14 @@
 			);
 			dependencies = (
 			);
-			name = demo001;
+			name = "hello OC";
 			productName = demo001;
-			productReference = 4A5F66E11FDF75940063195F /* demo001 */;
+			productReference = 4A5F66E11FDF75940063195F /* hello OC */;
 			productType = "com.apple.product-type.tool";
 		};
-		4A5F66EB1FDF75E50063195F /* demo002 */ = {
+		4A5F66EB1FDF75E50063195F /* OC类变量和函数 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4A5F66F01FDF75E50063195F /* Build configuration list for PBXNativeTarget "demo002" */;
+			buildConfigurationList = 4A5F66F01FDF75E50063195F /* Build configuration list for PBXNativeTarget "OC类变量和函数" */;
 			buildPhases = (
 				4A5F66E81FDF75E50063195F /* Sources */,
 				4A5F66E91FDF75E50063195F /* Frameworks */,
@@ -187,9 +152,9 @@
 			);
 			dependencies = (
 			);
-			name = demo002;
+			name = "OC类变量和函数";
 			productName = demo002;
-			productReference = 4A5F66EC1FDF75E50063195F /* demo002 */;
+			productReference = 4A5F66EC1FDF75E50063195F /* OC类变量和函数 */;
 			productType = "com.apple.product-type.tool";
 		};
 		4A5F66F61FDF82C50063195F /* 字符串结构体对象 */ = {
@@ -218,10 +183,6 @@
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = LJY;
 				TargetAttributes = {
-					4A5F66D21FDF755C0063195F = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
 					4A5F66E01FDF75940063195F = {
 						CreatedOnToolsVersion = 9.1;
 						ProvisioningStyle = Automatic;
@@ -248,22 +209,14 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4A5F66D21FDF755C0063195F /* ObjectCDemos */,
-				4A5F66E01FDF75940063195F /* demo001 */,
-				4A5F66EB1FDF75E50063195F /* demo002 */,
+				4A5F66E01FDF75940063195F /* hello OC */,
+				4A5F66EB1FDF75E50063195F /* OC类变量和函数 */,
 				4A5F66F61FDF82C50063195F /* 字符串结构体对象 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4A5F66CF1FDF755C0063195F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A5F66DD1FDF75940063195F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -394,22 +347,6 @@
 			};
 			name = Release;
 		};
-		4A5F66DB1FDF755C0063195F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		4A5F66DC1FDF755C0063195F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		4A5F66E61FDF75940063195F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -470,16 +407,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A5F66DA1FDF755C0063195F /* Build configuration list for PBXNativeTarget "ObjectCDemos" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4A5F66DB1FDF755C0063195F /* Debug */,
-				4A5F66DC1FDF755C0063195F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4A5F66E51FDF75940063195F /* Build configuration list for PBXNativeTarget "demo001" */ = {
+		4A5F66E51FDF75940063195F /* Build configuration list for PBXNativeTarget "hello OC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A5F66E61FDF75940063195F /* Debug */,
@@ -488,7 +416,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4A5F66F01FDF75E50063195F /* Build configuration list for PBXNativeTarget "demo002" */ = {
+		4A5F66F01FDF75E50063195F /* Build configuration list for PBXNativeTarget "OC类变量和函数" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4A5F66F11FDF75E50063195F /* Debug */,
