@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#pragma mark 个人信息
+#pragma mark - 个人信息
 //用结构体表示一个人的信息
 //typedef定义别名，方便调用
 typedef struct {
@@ -16,8 +16,7 @@ typedef struct {
     double weight;
 }PersonInfo;
 
-#pragma mark -
-#pragma mark 弹夹
+#pragma mark - 弹夹
 //表示弹夹
 @interface Clib:NSObject{
     @public
@@ -33,8 +32,7 @@ typedef struct {
 
 @end
 
-#pragma mark -
-#pragma mark 枪
+#pragma mark - 枪
 //表示枪
 @interface Gun:NSObject{
     @public
@@ -51,16 +49,21 @@ typedef struct {
     
 }
 -(void)fire{
+    if (_clib==nil) {
+        NSLog(@"还没有弹夹哦");
+        return;
+    }
     if (_clib->_bulletNum>0) {
         _clib->_bulletNum--;
         NSLog(@"开了一枪，子弹剩余%i",_clib->_bulletNum);
+    }else{
+        NSLog(@"没有子弹了，赶紧更换弹夹哦");
     }
 }
 
 @end
 
-#pragma mark -
-#pragma mark 士兵
+#pragma mark - 士兵
 //表示士兵
 @interface Soldier :NSObject{
     @public
@@ -80,7 +83,10 @@ typedef struct {
 
 -(void)fire:(id)gun{
     NSLog(@"soldier-%s:",_info.name);
-    [gun fire];
+    if(gun!=nil)
+        [gun fire];
+    else
+        NSLog(@"还没有枪哦");
 }
 
 @end
@@ -90,17 +96,22 @@ typedef struct {
 int main(int argc, const char * argv[]) {
     NSLog(@"main start");
     Clib *clib=[Clib new];
-    clib->_bulletNum=10;
+    clib->_bulletNum=6;
     Gun *gun=[Gun new];
     gun->_clib=clib;
     Soldier *soldier=[Soldier new];
     soldier->_info.name="ljy";
+    [soldier fire:nil];
     NSArray *arr=@[@1,@2,@3,@4];
     for(id i in arr){
         [soldier fire:gun];
     }
+    
     for(int i=0;i<3;i++){
         [soldier fire:gun];
     }
+    clib->_bulletNum=6;
+    gun->_clib=clib;
+    [soldier fire:gun];
     return 0;
 }
