@@ -104,7 +104,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4A5DD6711FDFFF2600AE65C9 /* 多文件和匿名对象 */ = {
+		4A5DD6711FDFFF2600AE65C9 /* 004_多文件和匿名对象 */ = {
 			isa = PBXGroup;
 			children = (
 				4A5DD6721FDFFF2600AE65C9 /* main.m */,
@@ -115,16 +115,16 @@
 				4A5DD67D1FE0BF3000AE65C9 /* Soldier.h */,
 				4A5DD67E1FE0BF3000AE65C9 /* Soldier.m */,
 			);
-			path = "多文件和匿名对象";
+			path = "004_多文件和匿名对象";
 			sourceTree = "<group>";
 		};
 		4A5F66CA1FDF755C0063195F = {
 			isa = PBXGroup;
 			children = (
-				4A5F66E21FDF75940063195F /* hello OC */,
-				4A5F66ED1FDF75E50063195F /* OC类变量和函数 */,
-				4A5F66F81FDF82C50063195F /* 字符串结构体对象 */,
-				4A5DD6711FDFFF2600AE65C9 /* 多文件和匿名对象 */,
+				4A5F66E21FDF75940063195F /* 001_hello OC */,
+				4A5F66ED1FDF75E50063195F /* 002_OC类变量和函数 */,
+				4A5F66F81FDF82C50063195F /* 003_字符串结构体对象 */,
+				4A5DD6711FDFFF2600AE65C9 /* 004_多文件和匿名对象 */,
 				4A5F66D41FDF755C0063195F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -140,28 +140,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4A5F66E21FDF75940063195F /* hello OC */ = {
+		4A5F66E21FDF75940063195F /* 001_hello OC */ = {
 			isa = PBXGroup;
 			children = (
 				4A5F66E31FDF75940063195F /* main.m */,
 			);
-			path = "hello OC";
+			path = "001_hello OC";
 			sourceTree = "<group>";
 		};
-		4A5F66ED1FDF75E50063195F /* OC类变量和函数 */ = {
+		4A5F66ED1FDF75E50063195F /* 002_OC类变量和函数 */ = {
 			isa = PBXGroup;
 			children = (
 				4A5F66EE1FDF75E50063195F /* main.m */,
 			);
-			path = "OC类变量和函数";
+			path = "002_OC类变量和函数";
 			sourceTree = "<group>";
 		};
-		4A5F66F81FDF82C50063195F /* 字符串结构体对象 */ = {
+		4A5F66F81FDF82C50063195F /* 003_字符串结构体对象 */ = {
 			isa = PBXGroup;
 			children = (
 				4A5F66F91FDF82C50063195F /* main.m */,
 			);
-			path = "字符串结构体对象";
+			path = "003_字符串结构体对象";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
