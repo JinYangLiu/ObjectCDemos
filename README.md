@@ -7,4 +7,4 @@
 
 003:OC字符串的使用，结构体作为对象的属性，对象作为方法参数传递,#pragma mark的使用
 
-004:多文件,匿名对象,setter&getter,自定义代码块创建setter/getter快捷方式
+004:多文件,匿名对象,setter&getter,自定义代码块创建setter/getter快捷方式，点语法的使用
