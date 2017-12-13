@@ -11,9 +11,9 @@
 //用结构体表示一个人的信息
 //typedef定义别名，方便调用
 typedef struct {
-    char *name;
-    double height;
-    double weight;
+    char *_name;
+    double _height;
+    double _weight;
 }PersonInfo;
 
 #pragma mark - 弹夹
@@ -82,7 +82,7 @@ typedef struct {
 }
 
 -(void)fire:(id)gun{
-    NSLog(@"soldier-%s:",_info.name);
+    NSLog(@"soldier-%s:",_info._name);
     if(gun!=nil)
         [gun fire];
     else
@@ -100,7 +100,7 @@ int main(int argc, const char * argv[]) {
     Gun *gun=[Gun new];
     gun->_clib=clib;
     Soldier *soldier=[Soldier new];
-    soldier->_info.name="ljy";
+    soldier->_info._name="ljy";
     [soldier fire:nil];
     NSArray *arr=@[@1,@2,@3,@4];
     for(id i in arr){
