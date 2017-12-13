@@ -14,7 +14,8 @@
 int main(int argc, const char * argv[]) {
     NSLog(@"main start");
     Clib *clib=[Clib new];
-    clib->_bulletNum=8;
+//    clib->_bulletNum=8;
+    [clib setBulletNum:7];
     Gun *gun=[Gun new];
     gun->_clib=clib;
     Soldier *soldier=[Soldier new];
@@ -25,10 +26,11 @@ int main(int argc, const char * argv[]) {
         [soldier fire:gun];
     }
     
-    for(int i=0;i<3;i++){
+    for(int i=0;i<5;i++){
         [soldier fire:gun];
     }
-    clib->_bulletNum=8;
+//    clib->_bulletNum=8;
+    [clib setBulletNum:7];
     gun->_clib=clib;
     [soldier fire:gun];
     //匿名对象

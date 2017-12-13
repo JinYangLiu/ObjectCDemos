@@ -10,4 +10,12 @@
 
 @implementation Clib
 
+-(void)setBulletNum:(int)bulletNum{
+    _bulletNum=bulletNum;
+}
+
+-(int)bulletNum{
+    return _bulletNum;
+}
+
 @end

@@ -10,8 +10,13 @@
 
 //声明弹夹
 @interface Clib:NSObject{
-@public
+    //@public
     int _bulletNum;//子弹数量
 }
+
+//setter
+-(void)setBulletNum:(int)bulletNum;
+//getter
+-(int)bulletNum;
 
 @end

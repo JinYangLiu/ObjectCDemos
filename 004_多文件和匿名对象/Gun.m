@@ -17,9 +17,10 @@
         NSLog(@"还没有弹夹哦");
         return;
     }
-    if (_clib->_bulletNum>0) {
-        _clib->_bulletNum--;
-        NSLog(@"开了一枪，子弹剩余%i",_clib->_bulletNum);
+    if ([_clib bulletNum]>0) {
+        int bulletNum=[_clib bulletNum];
+        [_clib setBulletNum:--bulletNum];
+        NSLog(@"开了一枪，子弹剩余%i",[_clib bulletNum]);
     }else{
         NSLog(@"没有子弹了，赶紧更换弹夹哦");
     }
