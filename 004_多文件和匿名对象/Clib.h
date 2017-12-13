@@ -19,4 +19,5 @@
 //getter
 -(int)bulletNum;
 
+
 @end

@@ -1,6 +1,6 @@
 //
 //  main.m
-//  多文件和匿名对象
+//  多文件,匿名对象,setter&getter，自定义代码块创建setter/getter快捷方式
 //
 //  Created by LJY on 2017/12/12.
 //  Copyright © 2017年 LJY. All rights reserved.
