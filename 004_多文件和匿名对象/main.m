@@ -1,6 +1,6 @@
 //
 //  main.m
-//  多文件,匿名对象,setter&getter，自定义代码块创建setter/getter快捷方式
+//  多文件,匿名对象,setter&getter，自定义代码块创建setter/getter快捷方式,点语法（由编译器自动转化为setter或者getter方法）
 //
 //  Created by LJY on 2017/12/12.
 //  Copyright © 2017年 LJY. All rights reserved.
@@ -15,6 +15,7 @@ int main(int argc, const char * argv[]) {
     NSLog(@"main start");
     Clib *clib=[Clib new];
 //    clib->_bulletNum=8;
+    //调用setter
     [clib setBulletNum:7];
     Gun *gun=[Gun new];
     gun->_clib=clib;
@@ -30,7 +31,8 @@ int main(int argc, const char * argv[]) {
         [soldier fire:gun];
     }
 //    clib->_bulletNum=8;
-    [clib setBulletNum:7];
+    //调用点语法
+    clib.bulletNum=4;
     gun->_clib=clib;
     [soldier fire:gun];
     //匿名对象
