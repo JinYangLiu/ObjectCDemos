@@ -8,7 +8,9 @@
 
 #import "Phone.h"
 
-@implementation Phone
+@implementation Phone{
+    NSString *_nickName;//私有成员变量
+}
 
 -(void)setName:(NSString *)name{
     _name=name;
