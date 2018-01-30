@@ -1,6 +1,6 @@
 //
 //  main.m
-//  006_property&id&init&类工厂方法
+//  006_ 
 //  Created by LJY on 2017/12/14.
 //  Copyright © 2017年 LJY. All rights reserved.
 //
@@ -16,6 +16,17 @@
 //但是这个自动生成的成员变量是私有的，也就是在.m中生成的，而非在.h中生成
 //(4)readonly只读，readwrite可读可写(默认)
 //(5)setter/getter方法的别名
+//(6)
+//  MRC（手动内存管理）模式下：
+//      retain：会自动生成setter/getter方法及内存管理代码
+//      assign:不会生成内存管理代码，仅生成setter/getter方法，默认不写就是assign
+//  ARC（自动内存管理）模式下：
+//      strong：用于oc对象，相当于MRC中retain
+//      weak：用于oc对象，相当于MRC中的assign
+//      assign：用于基本数据类型，和MRC中的assign一样
+//(7)atomic:性能低（默认）；
+//   nonatomic:性能高，ios开发中一般都写这个；
+//例子：@property(nonatomic,retain) NSString *name;
 //
 //2.id:
 //可以调用子类特有的方法也可以调用私有方法

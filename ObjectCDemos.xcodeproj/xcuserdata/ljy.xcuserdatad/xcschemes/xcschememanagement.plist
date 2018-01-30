@@ -44,6 +44,26 @@
 			<key>orderHint</key>
 			<integer>5</integer>
 		</dict>
+		<key>007_类对象&amp;SEL&amp;引用计数器.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>008_分类&amp;block&amp;协议.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>009_NSString&amp;NSArray等一些NS类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>NSString&amp;NSArray等一些NS类.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
 		<key>OC类变量和函数.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -68,6 +88,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>分类&amp;block&amp;协议.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
 		</dict>
 		<key>多文件和匿名对象.xcscheme</key>
 		<dict>
