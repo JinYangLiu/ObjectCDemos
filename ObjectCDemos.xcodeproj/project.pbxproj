@@ -24,6 +24,7 @@
 		4A5F66E41FDF75940063195F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F66E31FDF75940063195F /* main.m */; };
 		4A5F66EF1FDF75E50063195F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F66EE1FDF75E50063195F /* main.m */; };
 		4A5F66FA1FDF82C50063195F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A5F66F91FDF82C50063195F /* main.m */; };
+		4A727CDF2047EFE900B88848 /* Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A727CDE2047EFE900B88848 /* Tools.m */; };
 		4A8915651FE2A185005540D9 /* SanXingPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A8915641FE2A185005540D9 /* SanXingPhone.m */; };
 		4ABAD9971FEB4AD1009B443B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABAD9961FEB4AD1009B443B /* main.m */; };
 		4ABAD99D1FEB4DA5009B443B /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ABAD99C1FEB4DA5009B443B /* Person.m */; };
@@ -151,6 +152,9 @@
 		4A5F66EE1FDF75E50063195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4A5F66F71FDF82C50063195F /* 003_字符串结构体对象 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "003_字符串结构体对象"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A5F66F91FDF82C50063195F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A727CDD2047EFE900B88848 /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		4A727CDE2047EFE900B88848 /* Tools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tools.m; sourceTree = "<group>"; };
+		4A727CE12047F6C400B88848 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		4A8915631FE2A185005540D9 /* SanXingPhone.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SanXingPhone.h; sourceTree = "<group>"; };
 		4A8915641FE2A185005540D9 /* SanXingPhone.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SanXingPhone.m; sourceTree = "<group>"; };
 		4ABAD9941FEB4AD1009B443B /* 007_类对象&SEL&引用计数器 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "007_类对象&SEL&引用计数器"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -362,6 +366,9 @@
 				4AF0356F2004C91A0045FC2A /* main.m */,
 				4A39335220205F32001C3944 /* Dog.h */,
 				4A39335320205F32001C3944 /* Dog.m */,
+				4A727CDD2047EFE900B88848 /* Tools.h */,
+				4A727CDE2047EFE900B88848 /* Tools.m */,
+				4A727CE12047F6C400B88848 /* Singleton.h */,
 			);
 			path = "009_NSString&NSArray等一些NS类";
 			sourceTree = "<group>";
@@ -676,6 +683,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A727CDF2047EFE900B88848 /* Tools.m in Sources */,
 				4A39335420205F32001C3944 /* Dog.m in Sources */,
 				4AF035702004C91A0045FC2A /* main.m in Sources */,
 			);
